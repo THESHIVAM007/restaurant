@@ -2,11 +2,12 @@
     height: calc(100vh - 100px);
     background-color:  #d1411e;
     overflow: hidden;
+    position: relative;
 }
 .arrowContainer{
+    position: absolute;
     height: 20%;
     width: 10%;
-    position: absolute;
     top: 0;
     bottom: 0;
     cursor: pointer;
